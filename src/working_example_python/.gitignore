@@ -1,0 +1,6 @@
+# Python-specific ignores
+__pycache__/
+
+# Jupyter Notebook related ignores
+.ipynb_checkpoints/
+*.ipynb

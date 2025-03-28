@@ -1,0 +1,14 @@
+fields:
+  - name: t
+    type: integer
+  - name: status
+    type: integer
+  - name: sex
+    type: integer
+  - name: logwbc  
+    type: float   
+  - name: treat
+    type: integer
+
+
+
