@@ -6,7 +6,7 @@ fields:
   - name: sex
     type: integer
   - name: logwbc  
-    type: float   
+    type: number
   - name: treat
     type: integer
 

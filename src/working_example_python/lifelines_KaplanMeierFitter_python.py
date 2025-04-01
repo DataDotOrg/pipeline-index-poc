@@ -5,7 +5,7 @@ from utils import read_data_file
 import os 
 import argparse
 
-os.chdir('/Users/avinashladdha/___PROJECTS/pipeline-index-poc/src/working_example_python') 
+# os.chdir('/Users/avinashladdha/___PROJECTS/pipeline-index-poc/src/working_example_python')
 
 
 def get_kmf_stats_dataframe(durations, event_observed, label='KM Estimate', alpha=0.05):

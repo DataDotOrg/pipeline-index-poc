@@ -25,8 +25,8 @@ The actual data file can be found [here](https://github.com/pzivich/zEpid/blob/m
 To generate the `output.csv` file, execute the following command in your terminal:
 
 ```bash
-python3 lifelines_KaplanMeierFitter_python.py leukemia.dat
-
+python3 lifelines_KaplanMeierFitter_python.py leukemia.csv
+```
 
 ### 2. Validating the Schema using Frictionless
 
@@ -44,3 +44,4 @@ frictionless validate --schema lifelines_KaplanMeierFitter_python.output.schema.
 ┡━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━┩
 │ output │ table │ output.csv │ VALID  │
 └────────┴───────┴────────────┴────────┘
+```
