@@ -1,0 +1,8 @@
+steps:
+  - type: table-normalize
+  - title: "filter rows"
+    type: row-filter
+    formula: "outcome == 'died'"
+  - title: "write to a new file"
+    type: table-write
+    path: rm.csv

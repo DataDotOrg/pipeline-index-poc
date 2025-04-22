@@ -1,0 +1,67 @@
+fields:
+  - name: ID
+    type: string
+  - name: age
+    type: string
+  - name: sex
+    type: string
+  - name: city
+    type: string
+  - name: province
+    type: string
+  - name: country
+    type: string
+  - name: latitude
+    type: number
+  - name: longitude
+    type: number
+  - name: geo_resolution
+    type: string
+  - name: date_onset_symptoms
+    type: string
+  - name: date_admission_hospital
+    type: string
+  - name: date_confirmation
+    type: string
+  - name: symptoms
+    type: any
+  - name: lives_in_Wuhan
+    type: any
+  - name: travel_history_dates
+    type: string
+  - name: travel_history_location
+    type: string
+  - name: reported_market_exposure
+    type: any
+  - name: additional_information
+    type: string
+  - name: chronic_disease_binary
+    type: boolean
+  - name: chronic_disease
+    type: any
+  - name: source
+    type: string
+  - name: sequence_available
+    type: any
+  - name: outcome
+    type: string
+  - name: date_death_or_discharge
+    type: string
+  - name: notes_for_discussion
+    type: string
+  - name: location
+    type: string
+  - name: admin3
+    type: string
+  - name: admin2
+    type: string
+  - name: admin1
+    type: string
+  - name: country_new
+    type: string
+  - name: admin_id
+    type: number
+  - name: data_moderator_initials
+    type: any
+  - name: travel_history_binary
+    type: any

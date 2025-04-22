@@ -1,0 +1,5 @@
+fields:
+  - name: Date
+    type: date
+  - name: Cases
+    type: integer

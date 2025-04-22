@@ -1,0 +1,42 @@
+# this example illustrates packing fields into a single JSON;
+# we have added an extra step to remove the packed fields
+steps:
+  - type: table-normalize
+  - title: "pack everything not needed for incidence"
+    type: field-pack
+    name: details
+    fromNames:
+      - case_name
+      - case_type
+      - sex
+      - age
+      - date_onset
+      - date_reporting
+      - date_admission
+      - outcome
+      - date_outcome
+    asObject: true
+    preserve: true
+  - title: "stringify date_onset"
+    type: field-update
+    name: date_onset
+    formula: "str(date_onset)"
+    descriptor:
+      type: string
+  - title: "remove the fields that have been packed"
+    type: field-remove
+    names:
+      - case_name
+      - case_type
+      - sex
+      - age
+      - date_onset
+      - date_reporting
+      - date_admission
+      - outcome
+      - date_outcome
+    asObject: true
+    preserve: true
+#  - title: "write output"
+#    type: table-write
+#    path: rm.json

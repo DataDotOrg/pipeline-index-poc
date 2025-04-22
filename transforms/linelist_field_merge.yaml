@@ -1,0 +1,10 @@
+steps:
+  - type: table-normalize
+  - name: id_sex
+    type: field-merge
+    fromNames:
+      - case_name
+      - sex
+    preserve: true
+
+

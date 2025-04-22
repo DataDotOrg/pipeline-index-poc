@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "type": "table-normalize"
+    },
+    {
+      "type": "field-add",
+      "name": "new_field",
+      "value": "new_value",
+      "descriptor": {
+        "type": "string"
+      }
+    }
+  ]
+}

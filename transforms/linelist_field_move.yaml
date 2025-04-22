@@ -1,0 +1,6 @@
+steps:
+  - type: table-normalize
+  - title: move_id
+    type: field-move
+    name: id
+    position: 3 # 0-based index

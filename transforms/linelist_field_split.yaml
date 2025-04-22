@@ -1,0 +1,15 @@
+# this example illustrates how to split a field into multiple fields
+steps:
+  - type: table-normalize
+  - title: "split date_onset into year month date"
+    type: field-split
+    name: date_admission
+    toNames:
+      - year
+      - month
+      - day
+    pattern: "-"
+    preserve: true
+  - title: "write output"
+    type: table-write
+    path: rm.csv

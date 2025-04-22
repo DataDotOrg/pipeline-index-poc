@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {
+      "type": "table-normalize"
+    },
+    {
+      "type": "field-remove",
+      "names": ["ct_value"]
+    }
+  ]
+}

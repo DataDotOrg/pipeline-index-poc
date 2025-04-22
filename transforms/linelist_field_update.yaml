@@ -1,0 +1,20 @@
+steps:
+  - type: table-normalize
+  - title: "update a field"
+    type: field-update
+    name: date_onset
+    formula: "str(date_onset)"
+    descriptor:
+      type: string
+  - title: "split the date into Y, M, D"
+    type: field-split
+    name: date_onset
+    toNames:
+      - year
+      - month
+      - day
+    pattern: "-"
+    preserve: false
+  - title: "write to stdout"
+    type: table-write
+    path: rm.csv

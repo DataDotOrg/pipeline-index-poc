@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "type": "table-normalize"
+    },
+    {
+      "name": "id_age_date_reportin",
+      "type": "field-filter",
+      "names": [
+        "id",
+        "age",
+        "date_reporting"
+      ]
+    },
+    {
+      "name": "date_admission",
+      "type": "field-filter",
+      "names": [
+        "age"
+      ]
+    }
+  ]
+}

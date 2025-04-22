@@ -1,0 +1,11 @@
+/.RData
+/.Rhistory
+/gitlistobjectbysize.sh
+/Miniforge3-MacOSX-arm64.sh
+/.venv/
+/.idea/
+/data/
+/myreport/
+/new_transmissibility_report/
+/snakemake-tutorial/
+/src/__pycache__/

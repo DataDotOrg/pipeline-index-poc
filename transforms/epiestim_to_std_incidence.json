@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "type": "table-normalize"
+    },
+    {
+      "name": "cars",
+      "type": "field-add",
+      "formula": "I*4",
+      "descriptor": {
+        "type": "integer"
+      }
+    }
+  ]
+}
